@@ -1,10 +1,10 @@
 import SwiftUI
 
-extension Binding {
-  func isPresent<Wrapped>() -> Binding<Bool> where Value == Wrapped? {
-    self._isPresent
-  }
-}
+// extension Binding {
+//   func isPresent<Wrapped>() -> Binding<Bool> where Value == Wrapped? {
+//     self._isPresent
+//   }
+// }
 
 extension Optional {
   fileprivate var _isPresent: Bool {
